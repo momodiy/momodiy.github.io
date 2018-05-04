@@ -235,8 +235,9 @@
 
 		      },
 		      success: function(msg) {
+                  console.log(msg);
 
-	            // Message was sent
+                  // Message was sent
 	            if (msg == 'OK') {
 	            	sLoader.fadeOut(); 
 	               $('#message-warning').hide();
