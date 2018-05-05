@@ -27,6 +27,7 @@
 
     /*---------------------------------------------------- */
     /* FitText Settings
+    /* Automatic adaptation the length of drop-down menu tab
     ------------------------------------------------------ */
     setTimeout(function () {
 
@@ -47,25 +48,26 @@
     $("#owl-slider").owlCarousel({
         navigation: false,
         pagination: true,
-        itemsCustom: [
+        itemsCustom: [  // Responsive design
             [0, 1],
             [700, 2],
             [960, 3]
         ],
-        navigationText: false
+        navigationText: true
     });
 
 
     /*----------------------------------------------------- */
     /* Alert Boxes
       ------------------------------------------------------- */
-    $('.alert-box').on('click', '.close', function () {
-        $(this).parent().fadeOut(500);
-    });
+    // $('.alert-box').on('click', '.close', function () {
+    //     $(this).parent().fadeOut(5000);
+    // });
 
 
     /*----------------------------------------------------- */
     /* Stat Counter
+    /* Counter animation
       ------------------------------------------------------- */
     var statSection = $("#stats"),
         stats = $(".stat-count");
@@ -73,7 +75,6 @@
     statSection.waypoint({
 
         handler: function (direction) {
-
             if (direction === "down") {
 
                 stats.each(function () {
@@ -90,12 +91,11 @@
 
             }
 
-            // trigger once only
-            this.destroy();
+            this.destroy(); // trigger once only
 
         },
 
-        offset: "90%"
+        offset: "95%" // Set how much to trigger the event from the top（when to execution the handler function）
 
     });
 
@@ -183,7 +183,7 @@
 
         },
 
-        offset: '25%'
+        offset: '20%'
     });
 
 
@@ -200,7 +200,7 @@
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
         }, 800, 'swing', function () {
-            window.location.hash = target;
+            location.hash = target; // anchor jump
         });
 
     });
@@ -209,7 +209,7 @@
     /*---------------------------------------------------- */
     /*  Placeholder Plugin Settings
     ------------------------------------------------------ */
-    $('input, textarea, select').placeholder()
+    $('input, textarea, select').placeholder(); //let the fuck IE support the placeholder
 
 
     /*---------------------------------------------------- */
@@ -225,9 +225,14 @@
 
             var sLoader = $('#submit-loader');
 
+            /*
+               * jQuery serialize()
+               * function: Serialize form values, create URL-encoded text strings
+               * e.g. a=1&b=2&c=3&d=4&e=5
+               * */
             $.ajax({
 
-                // type: "POST",
+                type: "POST",
                 url: "inc/sendEmail.php",
                 data: $(form).serialize(),
                 beforeSend: function () {
@@ -239,7 +244,7 @@
                     console.log(msg);
 
                     // Message was sent
-                    if (msg == 'OK') {
+                    if (msg === 'OK') {
                         sLoader.fadeOut();
                         $('#message-warning').hide();
                         $('#contactForm').fadeOut();
@@ -248,16 +253,14 @@
                     // There was an error
                     else {
                         sLoader.fadeOut();
-                        $('#message-warning').html(msg);
-                        $('#message-warning').fadeIn();
+                        $('#message-warning').html(msg).fadeIn();
                     }
 
                 },
                 error: function () {
 
                     sLoader.fadeOut();
-                    $('#message-warning').html("Something went wrong. Please try again.");
-                    $('#message-warning').fadeIn();
+                    $('#message-warning').html("Something went wrong. Please try again.").fadeIn();
 
                 }
 
@@ -270,20 +273,19 @@
     /*----------------------------------------------------- */
     /* Back to top
  ------------------------------------------------------- */
-    var pxShow = 300; // height on which the button will show
+    var pxShow = 500; // height on which the button will show
     var fadeInTime = 400; // how slow/fast you want the button to show
     var fadeOutTime = 400; // how slow/fast you want the button to hide
-    var scrollSpeed = 300; // how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
 
     // Show or hide the sticky footer button
-    jQuery(window).scroll(function () {
+    $(document).scroll(function () {
 
         if (!($("#header-search").hasClass('is-visible'))) {
 
-            if (jQuery(window).scrollTop() >= pxShow) {
-                jQuery("#go-top").fadeIn(fadeInTime);
+            if ($(document).scrollTop() >= pxShow) {
+                $("#go-top").fadeIn(fadeInTime);
             } else {
-                jQuery("#go-top").fadeOut(fadeOutTime);
+                $("#go-top").fadeOut(fadeOutTime);
             }
 
         }
