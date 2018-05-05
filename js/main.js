@@ -197,7 +197,7 @@
         var target = this.hash,
             $target = $(target);
 
-        $('html, body').stop().animate({
+        $('html, body').stop().animate({    //stop(): stop animation
             'scrollTop': $target.offset().top
         }, 800, 'swing', function () {
             location.hash = target; // anchor jump
