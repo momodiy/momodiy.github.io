@@ -13,8 +13,8 @@
 ## 背景介绍 
 
 *momo*: 即默默，我很喜欢的一个ID<br>
-*diy*: 即`DO IT YOURSELF`，也就是自己的是自己做。<br>
-*[momodiy.github.io](https://momodiy.github.io/)*:这是我的个人网站，可以狠狠的点击查看。
+*diy*: 即`DO IT YOURSELF`，也就是自己的是自己做<br>
+*[momodiy.github.io](https://momodiy.github.io/)*:这是我的个人网站，可以狠狠的点击查看
 
 
 <a name="项目介绍"></a>  
@@ -24,7 +24,7 @@
 <a name="使用说明"></a>  
 ## 使用说明
 
-低调star，fork即用。
+低调star，fork即用
 
 <a name="使用说明"></a>  
 ## 使用说明
