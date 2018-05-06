@@ -26,6 +26,6 @@
 
 低调star，fork即用
 
-<a name="使用说明"></a>  
-## 使用说明
+<a name="License"></a>  
+## License
 [MIT](#License)
