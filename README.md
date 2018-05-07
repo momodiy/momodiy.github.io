@@ -12,8 +12,8 @@
 <a name="背景介绍"></a>  
 ## 背景介绍 
 
-*momo*: 即默默，我很喜欢的一个ID<br>
-*diy*: 即`DO IT YOURSELF`，也就是自己的是自己做<br>
+*momo*: 默默，一个我很喜欢的ID<br>
+*diy*: 即`DO IT YOURSELF`，也就是自己事是自己做<br>
 *[momodiy.github.io](https://momodiy.github.io/)*:这是我的个人网站，可以狠狠的点击查看
 
 
