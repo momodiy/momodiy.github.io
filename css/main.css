@@ -2216,6 +2216,9 @@ header .logo a {
 	font-family: "poppins-medium", sans-serif;
 	color: white;
 }
+#stats .stat-count:after{
+	content:'+'
+}
 #stats .stat-title {
 	color: rgba(255, 255, 255, 0.5);
 }
@@ -2603,3 +2606,7 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/*
+*
+*/
