@@ -1,0 +1,33 @@
+{
+  "name": "momodiy.github.io",
+  "version": "1.0.0",
+  "description": "github page",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "./node_modules/.bin/eslint */*.js | ./node_modules/.bin/eslint app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momodiy/momodiy.github.io.git"
+  },
+  "author": "Steven Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/momodiy/momodiy.github.io/issues"
+  },
+  "homepage": "https://github.com/momodiy/momodiy.github.io#readme",
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1"
+  }
+}
