@@ -1,7 +1,7 @@
 # **momodiy.github.io**
 
 [欢迎来到我的首页](https://momodiy.github.io)
-![first-page](images/redeme1.webp)
+![first-page](images/redeme1.jpg)
 
 ## 目录  
 * [背景介绍](#背景介绍)  
