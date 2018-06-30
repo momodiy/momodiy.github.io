@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>数独</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+<!--标题-->
+<div class="title">
+    <h1>数独游戏</h1>
+</div>
+<!--九宫格-->
+<div id="container" class="container grid"></div>
+<!--按钮组-->
+<div id="dashboard" class="dashboard">
+    <div class="buttons">
+        <button type="button" id="check">检查</button>
+        <button type="button" id="reset">重置</button>
+        <button type="button" id="clear">清理</button>
+        <button type="button" id="rebuild">重建</button>
+    </div>
+
+</div>
+<!--弹出面板-->
+<div class="grid popup-number hidden" id="popupNumbers" style="position: absolute;left: 10px;top: 100px;">
+    <div class="row">
+        <span>1</span><span>2</span><span>3</span>
+    </div>
+    <div class="row">
+        <span>4</span><span>5</span><span>6</span>
+    </div>
+    <div class="row">
+        <span>7</span><span>8</span><span>9</span>
+    </div>
+    <div class="row">
+        <span class="mark1"></span><span class="empty"></span><span class="mark2"></span>
+    </div>
+
+
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
