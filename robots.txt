@@ -1,0 +1,7 @@
+Robot-version: Version 1.0
+
+User-agent: *
+Disallow: /docs/
+
+User-agent: baiduspider
+Disallow: /
