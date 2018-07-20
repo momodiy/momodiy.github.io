@@ -2,6 +2,7 @@ Robot-version: Version 1.0
 
 User-agent: *
 Disallow: /docs/
+Disallow: /index.md
 
 User-agent: baiduspider
 Disallow: /
