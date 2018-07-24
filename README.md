@@ -1,6 +1,7 @@
 # **momodiy.github.io**
 
-[欢迎来到我的首页](https://momodiy.github.io)
+[欢迎来到我的首页](https://momodiy.github.io)<br>
+[备用地址](https://geeksteven.gitee.io/momodiy.github.io/)from gitee
 ![first-page](images/redeme1.jpg)
 
 ## 目录  
