@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/vendor.css">
 
+
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
@@ -38,11 +39,15 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122234127-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-122234127-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122234127-1');
     </script>
     <script type="application/ld+json">
     {
@@ -56,6 +61,7 @@
         "contactType": "Customer service"
       }
     }
+
     </script>
 
 </head>
@@ -225,7 +231,9 @@
     <div class="row button-section">
         <div class="col-twelve">
             <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-            <a title="Download CV" class="button button-primary" href="docs/resume.pdf" download="test" rel="nofollow">Download
+            <!--<a title="Download CV" class="button button-primary" href="docs/resume.pdf" download="test" rel="nofollow">Download-->
+                <!--CV</a>-->
+            <a title="Download CV" class="button button-primary" download="test" rel="nofollow">Download
                 CV</a>
         </div>
     </div>
@@ -744,8 +752,10 @@
             <ul class="footer-social">
                 <li><a href="#"><i class="fa fa-facebook" rel="nofollow"></i></a></li>
                 <li><a href="https://github.com/momodiy" rel="nofollow"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://mobile.twitter.com/steven____lee" rel="nofollow"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="mailto:qcstevengo@gmail.com" target="_blank" rel="nofollow"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="https://mobile.twitter.com/steven____lee" rel="nofollow"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="mailto:qcstevengo@gmail.com" target="_blank" rel="nofollow"><i class="fa fa-envelope"></i></a>
+                </li>
                 <li><a href="#" rel="nofollow"><i class="fa fa-stack-overflow"></i></a></li>
             </ul>
 
@@ -770,6 +780,7 @@
 
 <!-- Java Script
 ================================================== -->
+<script src="https://cdn.bootcss.com/sweetalert/2.1.0/sweetalert.min.js"></script>
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
