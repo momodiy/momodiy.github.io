@@ -34,7 +34,7 @@
 
 
 #### 4. 提醒示例
-以下截图是 2018/09/18 CSDN博客502时捕获的邮件信息，在这之后还有一封邮件，记录了网站宕机事件等内容。
+以下截图是 2018/09/18 CSDN博客502时捕获的邮件信息，在这之后还有一封邮件，记录了网站宕机时间等内容。
 <p><img style="width:400px" src="https://momodiy.github.io/blog/watching-website/img/down.png" alt="add"></p>
 
 > 该网站还支持短信与电话的告警，当然这些服务就需要付费了。
