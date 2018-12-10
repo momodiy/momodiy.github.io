@@ -82,7 +82,7 @@ formData.append("productLogo", "productLogo"); //插入图片对象
 
 
 ##### （3）base64上传
-获取到图片base64编码后，将base64编码保存至数据库，有点不优雅但是对于前端来说难度最小。当然我们也可以做一些优化，使用canvas的api `toDataURL`将图片压缩，以至于我们存储的base64编码长度可以变短。
+获取到图片base64编码后，将base64编码保存至数据库，有点不优雅但是对于前端来说难度最小。当然我们也可以做一些优化，使用canvas的api `toDataURL`将图片压缩，相应的我们存储的base64编码长度可以变短。
 
 
 ```js
