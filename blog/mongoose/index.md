@@ -33,7 +33,7 @@
 > mongod
 ```
 
-![image](http://wx3.sinaimg.cn/mw690/d707e012ly1flvqtq4j3kj20vo0gmt9v.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/1.jpg)
 
 此时这个界面代表启动mongod.exe失败.原因：
 > mongodb没有设置数据存储位置 需要在启动mongod.exe时手动设置
@@ -45,7 +45,7 @@
 > mongod --dbpath F:\mongodb\data
 ```
 
-![image](http://wx4.sinaimg.cn/mw690/d707e012ly1flvqmbackij21h60dsgna.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/17.jpg)
 
 
 上图代表mongod.exe启动成功，接下来**重新开启一个terminal终端**
@@ -56,7 +56,7 @@
 > mongo
 ```
 
-![image](http://wx4.sinaimg.cn/mw690/d707e012ly1flvqmg9oanj20xm0eidgc.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/14.jpg)
 
 启动成功!
 
@@ -83,7 +83,7 @@ port=27017 #端口号 默认为27017
 > mongod --config F:\mongodb\mongo.conf
 ```
 
-![image](http://wx4.sinaimg.cn/mw690/d707e012ly1flvqmlp8l0j20fz061745.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/15.jpg)
 
 没有反应 但其实启动成功了，为了验证，我们重新开启一个terminal终端
  在F:/mongodb/bin 目录下执行
@@ -92,7 +92,7 @@ port=27017 #端口号 默认为27017
 > mongo
 ```
 
-![image](http://wx2.sinaimg.cn/mw690/d707e012ly1flvqo5c3xjj20vc0eh0t8.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/16.jpg)
 
 启动成功!
 
@@ -107,7 +107,7 @@ port=27017 #端口号 默认为27017
 > mongod --config "F:/mongodb/mongo.conf" --install --serviceName "MongoDB"
 ```
 
-![image](http://wx4.sinaimg.cn/mw690/d707e012ly1flvqo9kl9nj20zf09vmxd.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/13.jpg)
 
 若是出现这样的问题，去清空 F:/mongodb/logs目录 再次
 
@@ -115,17 +115,17 @@ port=27017 #端口号 默认为27017
 > mongod --config "F:/mongodb/mongo.conf" --install --serviceName "MongoDB"
 ```
 
-![image](http://wx1.sinaimg.cn/mw690/d707e012ly1flvqocvhguj20v70bt3yt.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/12.jpg)
 
 没有消息就是好消息，我们注册Windows服务成功了，服务名为MongoDB
 
 为了检验 我们 window+r 输入 services.msc
 
-![image](http://wx3.sinaimg.cn/mw690/d707e012ly1flvqofz9lyj20ax05k3yf.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/11.jpg)
 
 点击ok
 
-![image](http://wx2.sinaimg.cn/mw690/d707e012ly1flvqoisonmj20mt0eljsp.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/10.jpg)
 
 找到了MongoDB这个服务(services)，代表注册成功!
 
@@ -135,7 +135,7 @@ port=27017 #端口号 默认为27017
 > net start MongoDB
 ```
 
-![image](http://wx3.sinaimg.cn/mw690/d707e012ly1flvqrsuzskj20ff07ht8p.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/9.jpg)
 
 MongoDB服务启动成功，但还没启动mongo.exe
 
@@ -145,7 +145,7 @@ MongoDB服务启动成功，但还没启动mongo.exe
 > mongo
 ```
 
-![image](http://wx3.sinaimg.cn/mw690/d707e012ly1flvqrwuvlkj20u50bzdg8.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/8.jpg)
 
 启动成功！
 若要停止mongodb,只需要**以管理员的身份打开terminal终端**
@@ -153,7 +153,7 @@ MongoDB服务启动成功，但还没启动mongo.exe
 ```
 > net stop MongoDB
 ```
-![image](http://wx3.sinaimg.cn/mw690/d707e012ly1flvqs5301mj20cx04ggli.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/6.jpg)
 
 MongoDB服务关闭成功！
 
@@ -170,10 +170,10 @@ MongoDB服务关闭成功！
 
 关于环境变量的配置我就不细说了...如图
 
-![image](http://wx3.sinaimg.cn/mw690/d707e012ly1flvqs1e91jj20aw0au3yp.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/7.jpg)
 
 **MongoDB服务启动后，每次使用只需要 打开terminal终端工具 简单的输入mongo即可（任意路径 任意身份）**
-![image](http://wx2.sinaimg.cn/mw690/d707e012ly1flvqs9vqg7j20uj0afjrp.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/5.jpg)
 到此，够简化了吧。
 
 ### 第七部 ： 用mongodb可视化工具mongochef查看我们的mongodb数据库
@@ -185,7 +185,7 @@ MongoDB服务关闭成功！
   - server本地为localhost 
   - port默认为27017
    
-![image](http://wx3.sinaimg.cn/mw690/d707e012ly1flvqt8winnj20f50dfjrg.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/4.jpg)
 
 - Test Connect （此时mongodb服务必须处在开启状态 否则无法连接成功）
 
@@ -193,7 +193,7 @@ MongoDB服务关闭成功！
 
 依次点击ok -> save -> connect，此时已经可以在左边栏看到当前连接的数据表
 
-![image](http://wx1.sinaimg.cn/mw690/d707e012ly1flvqtkcruaj20b103qglf.jpg)
+![image](https://momodiy.github.io/blog/mongoose/imgs/3.jpg)
 
 
 至此，所有配置完成。如果还有什么疑惑，可以给我留言 :)
