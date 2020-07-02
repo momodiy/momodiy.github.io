@@ -64,7 +64,7 @@ person1.__propo__.head = 3
 console.log(person1.head) // 3
 ```
 
-### 4.总结及图解
+### 4.图解及总结
 
 以上三条相信大家都已经看明白了，接下来让我们把这三条知识点串联起来。
 
@@ -77,10 +77,12 @@ console.log(person1.head) // 3
 
 ### 5.后续
 
-以上就是`小白也能彻底理解的prototype原型链`系列的第一篇文章，后续还会讲到Function、Object等对象的完整原型链以及原型链在框架/组件源码中灵活使用。
+以上就是[`小白也能彻底理解的prototype原型链`](https://stevenlee.blog.csdn.net/article/details/107096637)系列的第一篇文章，后续还会讲到Function、Object等对象的完整原型链以及原型链在框架/组件源码中灵活使用。
 
 为了保证文章质量，暂无法给出明确的完成时间~请各位多多包函与理解。
 
-[后续文章占个坑](https://stevenlee.blog.csdn.net/article/details/107096637)
+[后续文章](https://stevenlee.blog.csdn.net/article/details/107096637)
+[占个坑](https://stevenlee.blog.csdn.net/article/details/107096637)
+
 
 ## END
