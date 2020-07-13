@@ -15,7 +15,7 @@
 
 *[https://momodiy.github.io](https://momodiy.github.io/)*:这是我的个人网站，可以狠狠的点击查看
 
-<a name="项目介绍"></a>  
+<a name="项目介绍"></a>
 ## 项目介绍 
 一个简单的个人网站，目前只有前台页面。
 
@@ -31,4 +31,4 @@
 [MIT](#License)
 
 ## Visitors
- ![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
+ ![visitors](https://visitor-badge.glitch.me/badge?page_id=momodiy.github.io)
