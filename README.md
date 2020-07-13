@@ -1,16 +1,15 @@
 # **momodiy.github.io**
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 [欢迎来到我的首页](https://momodiy.github.io)<br>
 [备用地址](https://geeksteven.gitee.io/momodiy.github.io/)from gitee
 ![first-page](images/redeme1.jpg)
 
 ## 目录  
-* [背景介绍](#背景介绍)  
-* [项目介绍](#项目介绍)  
+* [背景介绍](#背景介绍)
+* [项目介绍](#项目介绍)
 * [使用说明](#使用说明)
-* [License](#License)  
+* [License](#License)
 
 <a name="背景介绍"></a>  
 ## 背景介绍 
