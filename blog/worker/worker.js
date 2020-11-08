@@ -5,7 +5,6 @@
 * Project: DIY
 * */
 onmessage = e => {
-
   console.log(e.data, 'from Worker')
 
   postMessage(Number(e.data[0] || 0) + Number(e.data[1] || 0))
