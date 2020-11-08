@@ -10,5 +10,4 @@ onmessage = e => {
 
   postMessage(Number(e.data[0] || 0) + Number(e.data[1] || 0))
 
-  close()
 }
