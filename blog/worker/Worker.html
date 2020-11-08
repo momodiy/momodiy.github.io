@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input id="number1" type="text">+
+<input id="number2" type="text">
+=
+<input disabled id="result" placeholder="计算结果" type="text">
+
+<script type="application/javascript">
+
+let myWorker = new Worker('worker.js');
+let first = document.querySelector('#number1');
+let second = document.querySelector('#number2');
+
+first.onchange = second.onchange = function () {
+  myWorker.postMessage([first.value, second.value]);
+  // console.log('Message posted to worker');
+}
+myWorker.onmessage = e => {
+  console.log(e, 'from window')
+  result.value = e.data
+}
+
+
+</script>
+</body>
+</html>
