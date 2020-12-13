@@ -14,7 +14,7 @@
 - 新增冒泡和捕获的概念
 - 一个元素节点支持绑定多个事件
 
-![capture&bubble](https://raw.githubusercontent.com/momodiy/momodiy.github.io/master/blog/dom-event-model/capture&bubble.png)
+![capture&bubble](momodiy.github.io/blog/dom-event-model/capture&bubble.png)
 
 
 ### 1. 绑定事件:**addEventListener(参数如下)**
