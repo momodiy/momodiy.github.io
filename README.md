@@ -25,7 +25,7 @@
 <a name="使用说明"></a>  
 ## 使用说明
 
-低调star，fork即用。
+低调star，无需fork。
 
 <a name="License"></a>  
 ## License
