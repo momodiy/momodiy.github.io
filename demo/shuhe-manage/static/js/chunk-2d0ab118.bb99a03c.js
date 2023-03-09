@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0ab118"],{1465:function(e,n,c){"use strict";c.r(n);var t=c("7a23");function o(e,n,c,o,a,r){return Object(t["openBlock"])(),Object(t["createElementBlock"])("div",null,"短信管理")}var a={name:"shortMessage"},r=c("d959"),s=c.n(r);const u=s()(a,[["render",o]]);n["default"]=u}}]);

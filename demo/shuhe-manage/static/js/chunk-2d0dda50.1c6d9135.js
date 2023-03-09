@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0dda50"],{"81ef":function(e,n,c){"use strict";c.r(n);var t=c("7a23");function d(e,n,c,d,o,a){return Object(t["openBlock"])(),Object(t["createElementBlock"])("div",null,"模型审批")}var o={name:"modelAudit"},a=c("d959"),r=c.n(a);const u=r()(o,[["render",d]]);n["default"]=u}}]);
