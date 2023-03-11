@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0df2ce"],{8990:function(n,e,c){"use strict";c.r(e);var t=c("7a23");function o(n,e,c,o,r,a){return Object(t["openBlock"])(),Object(t["createElementBlock"])("div",null," 营销管理 ")}var r={name:"marketing"},a=c("d959"),d=c.n(a);const u=d()(r,[["render",o]]);e["default"]=u}}]);

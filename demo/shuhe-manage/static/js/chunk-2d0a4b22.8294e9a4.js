@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0a4b22"],{"0815":function(e,n,t){"use strict";t.r(n);var c=t("7a23");function a(e,n,t,a,r,o){return Object(c["openBlock"])(),Object(c["createElementBlock"])("div",null,"系统配置")}var r={name:"systemParameter"},o=t("d959"),s=t.n(o);const u=s()(r,[["render",a]]);n["default"]=u}}]);
